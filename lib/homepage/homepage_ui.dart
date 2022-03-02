@@ -10,6 +10,12 @@ class HomeUi extends StatefulWidget {
 class _HomeUiState extends State<HomeUi> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        title: Row(
+          children: [],
+        ),
+      ),
+    );
   }
 }
